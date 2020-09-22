@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppShortcuts</string>
+    <string name="title_call_made">Call Made</string>
+    <string name="title_call">Call</string>
+</resources>

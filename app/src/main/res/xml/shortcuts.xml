@@ -1,0 +1,27 @@
+<?xml version ="1.0" encoding ="utf-8"?><!--  Learn More about how to use App Actions: https://developer.android.com/guide/actions/index.html -->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:targetApi="25">
+    <shortcut
+        android:enabled="false"
+        android:icon="@drawable/ic_call_missed"
+        android:shortcutId="shortcut_name"
+        android:shortcutShortLabel="@string/title_call_made">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass=".MainActivity"
+            android:targetPackage="com.pratik.appshortcuts"></intent>
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_call"
+        android:shortcutId="helo"
+        android:shortcutShortLabel="@string/title_call">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass=".MainActivity"
+            android:targetPackage="com.pratik.appshortcuts" />
+    </shortcut>
+
+</shortcuts>
